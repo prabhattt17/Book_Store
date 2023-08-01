@@ -1,0 +1,106 @@
+.bt{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 30vh;
+}
+
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  width: 140px;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+.button-25 {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: .15s, .15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
+.input-box{
+  margin-left: 50px;
+  text-align: center;
+  border-style:solid;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  box-shadow: 2px 2px 2px 4px #2c5777;
+}
+
